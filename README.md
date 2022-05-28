@@ -1,2 +1,2 @@
-# Verthandi
+# Verðandi 
 A JavaScript study repository.
