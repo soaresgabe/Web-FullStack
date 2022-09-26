@@ -1,0 +1,27 @@
+body {
+    background-color: #F1F1F1;
+    margin: auto;
+    max-width: max-content;
+}
+
+div {
+    background-color: #FFF8F3;
+    border-style: groove;
+    border-radius: 50px;
+    border-color: #FAF1F1;
+}
+
+h1, h3 {
+    color: #1C6DD0;
+    margin-left: 20px;
+}
+
+hr {
+    border-color: #A3E4DB;
+}
+
+#avatar {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
