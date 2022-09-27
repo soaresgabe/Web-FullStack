@@ -1,26 +1,150 @@
 body {
     background-color: #FFF8F3;
     margin: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15rem;
+    color: #40514E;
 }
 
-
-
-#title-name {
-    margin-top: 0px;
+hr {
+    border: dotted #AAB6B6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
+
+h2 {
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAB6B6;
+
+}
+
+/* ---------------------------------- Classes */
 
 .top-container {
-    background-color: #ABD9FF;
+    background-color: #FFF8F3;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    margin: 100px auto 50px;
 }
 
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+    background-color: #FAF4B7;
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 240px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img2 {
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro {
+    width: 35%;
+    margin: auto;
+}
+
+.myeduc {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+	background-color:#005eff;
+	border-radius:50px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 34px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright-msg {
+    font-size: 0.9rem;
+    padding: 20px 0;
+}
+
+/* ---------------------------------- ID */
+
+#title-name {
+    margin: 50 auto 0 auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5.5rem;
+}
+
+#sub-title {
+    font-size: 1.2rem;
+}
+
+#hello {
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+}
+
+#avatar {
+    width: 13%;
+    border-radius: 50%;
+    float: none;
+}
+
+#skill-1 {
+    border-radius: 0%;
 }
