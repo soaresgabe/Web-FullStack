@@ -1,0 +1,49 @@
+body {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.dice {
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: brown;
+    display: flex;
+    padding: 10px;
+}
+
+.column {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.ball {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+#dice01 {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    margin: auto;
+}
+
+#dice02 {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    margin: auto;
+}
